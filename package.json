@@ -22,12 +22,13 @@
     "handlebars": "3.x.x",
     "hapi": "8.x.x",
     "hapi-auth-basic": "2.x.x",
-    "hoek": "2.x.x"
+    "hoek": "2.x.x",
+    "joi": "^6.4.3"
   },
   "scripts": {
     "test": "node node_modules/lab/bin/lab -a code -t 100 -L -v",
     "test-cov-html": "node node_modules/lab/bin/lab -a code -r html -o coverage.html",
-    "start": "node lib/start.js"
+    "start": "nodemon lib/start.js"
   },
   "devDependencies": {
     "code": "1.x.x",
